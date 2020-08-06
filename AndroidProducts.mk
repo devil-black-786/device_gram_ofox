@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_excalibur.mk
+    $(LOCAL_DIR)/omni_gram.mk
 
-COMMON_LUNCH_CHOICES := omni_excalibur-eng
+COMMON_LUNCH_CHOICES := omni_gram-eng
