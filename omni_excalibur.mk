@@ -15,9 +15,9 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := excalibur
+PRODUCT_RELEASE_NAME := gram
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-DEVICE_PATH := device/xiaomi/excalibur
+DEVICE_PATH := device/xiaomi/gram
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -27,10 +27,10 @@ $(call inherit-product, vendor/pb/config/common.mk)
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := excalibur
-PRODUCT_NAME := omni_excalibur
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 9 Pro Max
+PRODUCT_DEVICE := gram
+PRODUCT_NAME := omni_gram
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := Poco M2 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 # HACK: Set vendor patch level
